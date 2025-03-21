@@ -4,6 +4,7 @@ import gradio as gr
 from dotenv import load_dotenv
 from langchain.chat_models import ChatOpenAI
 from langchain.schema import ChatMessage
+import os
 
 load_dotenv()
 
